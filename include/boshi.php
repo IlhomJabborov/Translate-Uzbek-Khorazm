@@ -18,7 +18,6 @@
         <ul class="nav nav-pills " id="hider">
             <li id="one" class="nav-item  "><a href="#" class="nav-link">Bosh sahifa</a></li>
             <li id="one" class="nav-item "><a href="#" class="nav-link">Natija</a></li>
-            <li id="one" class="nav-item "><a href="#" class="nav-link">To'liq lug'at</a></li>
             <li id="one" class="nav-item "><a href="#" class="nav-link">Muallif so'zi</a></li>
             <li id="one" class="nav-item "><a href="#" class="nav-link">Biz haqimizda</a></li>
         </ul>

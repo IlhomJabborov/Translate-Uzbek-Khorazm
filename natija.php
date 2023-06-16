@@ -6,14 +6,10 @@
     if($_SERVER["REQUEST_METHOD"] == "POST"){
         $qidiruv=$_POST['qidiruv'];
 
-        $buyruq=$pdo->prepare("SELECT * FROM dic WHERE xorazm LIKE '%$qidiruv%';");
+        $buyruq=$pdo->prepare("SELECT * FROM dic WHERE xorazm OR uzbek LIKE '%$qidiruv%';");
         $buyruq->execute();
 
         $olish=$buyruq->fetchAll();
-        
-        // if (empty($olish)) {
-        //     echo "Mavjud emas";
-        // }
 
     } 
 ?>
@@ -59,6 +55,6 @@
 
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -7,7 +7,7 @@
 
  
 ?>
-<BR><BR><BR></BR></BR></BR>
+<BR><BR></BR></BR>
     <div class="mt-5">
       <form method="post" action="natija.php" onsubmit="return validateForm()">
         <div class="form-group mt-5" style="display: flex; justify-content: center;">

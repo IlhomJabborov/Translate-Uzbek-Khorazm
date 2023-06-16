@@ -18,7 +18,6 @@
         <ul class="nav nav-pills" id="cqa">
             <li class="nav-item"><a href="#" class="nav-link" aria-current="page">Bosh sahifa</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Natija</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">To'liq lug'at</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Muallif so'zi</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Biz haqimizda</a></li>
         </ul>
